@@ -1,18 +1,20 @@
-body {
-  background: darkgreen;
+#content {
   padding: 20px;
-  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 
-  h1{
+  h1 {
     font-size: 48px;
     margin: 0 0 20px 0;
   }
 
-  p{
+  p {
     font-size: 20px;
     margin: 0;
   }
-  p+p{
+
+  p+p {
     margin-top: 5px;
   }
 
